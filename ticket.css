@@ -1,0 +1,84 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.container {
+    
+    width: 80%;
+    max-width: 300px;
+ 
+    padding: 30px;
+  margin-bottom: 20px;
+    border-radius: 10px;
+  
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.input-group{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    max-width: 400px;
+    background-color: #dcabab;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: 250px;
+    position: absolute;
+   
+    transition: .5s;
+    height: 350px;
+    left: 640px;
+}
+
+input[type="text"],
+input[type="time"],
+input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c8a3a3;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.ticket {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* Additional styles can be added as needed. */
